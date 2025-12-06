@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap");
+
+:root {
+  /* Color Palette */
+  --color-primary: #fcb216; /* Golden Orange */
+  --color-secondary: #e85d24; /* Red Orange */
+  --color-tertiary: #d91b57; /* Pink Red */
+  --color-quaternary: #63205f; /* Deep Purple */
+
+  /* Gradients */
+  --gradient-main: linear-gradient(
+    135deg,
+    #fcb216 0%,
+    #e85d24 33%,
+    #d91b57 66%,
+    #63205f 100%
+  );
+  --gradient-glow: radial-gradient(
+    circle,
+    rgba(252, 178, 22, 0.4) 0%,
+    rgba(232, 93, 36, 0.2) 50%,
+    transparent 70%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #000000;
+  color: #ffffff;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(10, 10, 10, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gradient-main);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #e85d24, #d91b57);
+}
