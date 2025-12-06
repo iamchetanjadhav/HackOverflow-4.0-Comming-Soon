@@ -172,10 +172,10 @@
 /* Main Title */
 .main-title {
   font-family: 'Orbitron', sans-serif;
-  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-size: clamp(3rem, 9vw, 7rem);
   font-weight: 900;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: 6rem;
   background: var(--gradient-main);
   -webkit-background-clip: text;
   background-clip: text;
@@ -217,7 +217,7 @@
 .version-number {
   display: inline-block;
   font-family: 'Orbitron', sans-serif;
-  font-size: clamp(2.5rem, 8vw, 6rem);
+  font-size: clamp(3rem, 9vw, 7rem);
   font-weight: 700;
   background: linear-gradient(135deg, #E85D24 0%, #D91B57 50%, #63205F 100%);
   -webkit-background-clip: text;

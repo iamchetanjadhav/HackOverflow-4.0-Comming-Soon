@@ -9,8 +9,6 @@
 
 A stunning, elegantly animated "Coming Soon" landing page for **HACKOVERFLOW 4.0** - a 3-day national level hackathon featuring cutting-edge animations, dynamic lighting effects, and a sleek modern design.
 
-[Live Demo](#) • [Report Bug](#) • [Request Feature](#)
-
 </div>
 
 ---
@@ -140,8 +138,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@HackOverflow-1-0](https://github.com/HackOverflow-1-0)
 
 <div align="center">
-
-### ⭐ Star this repo if you find it useful!
 
 **Made with ❤️ for HACKOVERFLOW 4.0**
 
